@@ -1,0 +1,22 @@
+@import "./reset/basic-reset";
+
+$grey: blue;
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: green;
+}
+
+img {
+  margin-bottom: 3rem;
+}
+
+h1,
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+}
