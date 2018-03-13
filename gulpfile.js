@@ -134,8 +134,8 @@ gulp.task('templates', function () {
   
 });
 
-gulp.task('default', ['clean','images', 'templates', 'styles', 'scripts'],  function () {
-  console.log('starting build task');
+gulp.task('build', ['clean','images', 'templates', 'styles', 'scripts'],  function () {
+  console.log('starting default task');
 });
 
 gulp.task('test', function () {
@@ -153,7 +153,7 @@ gulp.task('export', function () {
 
 
 
-gulp.task('watch', ['default'], function () {
+gulp.task('watch', ['build'], function () {
   console.log('starting watch task');
   livereload.listen();
   require('./server.js');
