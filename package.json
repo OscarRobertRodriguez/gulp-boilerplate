@@ -6,16 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/OscarRobertRodriguez/gulp-boilerplate.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/OscarRobertRodriguez/gulp-boilerplate/issues"
-  },
-  "homepage": "https://github.com/OscarRobertRodriguez/gulp-boilerplate#readme",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-preset-env": "^1.6.1",
